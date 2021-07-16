@@ -1,0 +1,10 @@
+.dropdown-container{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.dropdown {
+    text-align: right;
+    margin: 2em 2em;
+    font-size: larger;
+}

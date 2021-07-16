@@ -1,0 +1,110 @@
+export const DUMMY_EXPENSES = [
+  {
+    id: "e1",
+    title: "Office Paper",
+    amount: 94.12,
+    date: new Date(2020, 7, 14),
+    tag: "stationery",
+    tagId: 1
+  },
+  {
+    id: "e2",
+    title: "New TV",
+    amount: 799.49,
+    date: new Date(2021, 2, 12),
+    tag: "electronic",
+    tagId:2
+  },
+  {
+    id: "e3",
+    title: "Car Insurance",
+    amount: 294.67,
+    date: new Date(2021, 2, 28),
+    tag: "finance",
+  },
+  {
+    id: "e4",
+    title: "Life Insurance",
+    amount: 84.67,
+    date: new Date(2020, 2, 8),
+    tag: "finance",
+  },
+  {
+    id: "e5",
+    title: "Sweatshirt",
+    amount: 410.88,
+    date: new Date(2020, 5, 12),
+    tag: "cloths",
+  },
+  {
+    id: "e6",
+    title: "Tshirt",
+    amount: 45.67,
+    date: new Date(2021, 5, 12),
+    tag: "cloths",
+  },
+  {
+    id: "e7",
+    title: "Eraser",
+    amount: 1250.0,
+    date: new Date(2021, 4, 7),
+    tag: "stationery",
+  },
+  {
+    id: "e8",
+    title: "Pen (Parker)",
+    amount: 90.84,
+    date: new Date(2020, 3, 4),
+    tag: "stationery",
+  },
+  {
+    id: "e9",
+    title: "Bed Sheet (Wooden)",
+    amount: 123,
+    date: new Date(2021, 4, 6),
+    tag: "furniture",
+  },
+  {
+    id: "e10",
+    title: "Bed (Wooden)",
+    amount: 0,
+    date: new Date(2019, 2, 1),
+    tag: "furniture",
+  },
+  {
+    id: "e11",
+    title: "Chair",
+    amount: 654.3,
+    date: new Date(2021, 15, 2),
+    tag: "furniture",
+  },
+  {
+    id: "e12",
+    title: "Air conditioner( AC )",
+    amount: 32,
+    date: new Date(2021, 6, 11),
+    tag: "electronic",
+  },
+  {
+    id: "e13",
+    title: "Cooler",
+    amount: 45.43,
+    date: new Date(2020, 5, 1),
+    tag: "furniture",
+  },
+  {
+    id: "e14",
+    title: "Laptop",
+    amount: 654.3,
+    date: new Date(2021, 15, 1),
+    tag: "electronic",
+  },
+  {
+  id: "e15",
+    title: "Jeans",
+    amount: 932.53,
+    date: new Date(2019, 3, 9),
+    tag: "cloths",
+}
+  
+];

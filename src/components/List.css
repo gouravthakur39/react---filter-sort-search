@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 80px;
+    background-color: rgb(19, 109, 245);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.search-box {
+    position: absolute;
+    top: 20%;
+    height: 80px;
+    margin: 1em 1em;
+}
+.search-box input{
+    padding: 1em;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
