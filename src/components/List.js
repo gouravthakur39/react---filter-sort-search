@@ -38,8 +38,26 @@ function List() {
     setSortBy(e.target.value);
   };
 
+  const { search } = window.location;
+  const query = new URLSearchParams(search).get("s");
+  console.log(query);
+
+  const searchProducts = (searchedProducts, query) => {
+    if (!query) {
+      console.log(searchedProducts);
+      return searchedProducts;
+    }
+    return searchedProducts.filter((product) => {
+      const productName = product.title.toLowerCase();
+      return productName.includes(query);
+    });
+  };
+
+  const searchedProducts = searchProducts(filteredProducts, query);
+  console.log(searchedProducts);
+
   const uniqueCategory = [...new Set(tags)];
-  const products = filteredProducts.map((item) => (
+  const products = searchedProducts.map((item) => (
     <ListItem
       key={item.id}
       id={item.id}
@@ -56,7 +74,7 @@ function List() {
         <h1>Filter</h1>
       </div>
       <div className="search-box">
-        <form>
+        <form action="/" method="get">
           <input type="search" id="search" name="s" placeholder="search..." />
           <button type="submit">Search</button>
         </form>
